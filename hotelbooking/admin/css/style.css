@@ -1,0 +1,79 @@
+:root {
+    --teal: #2ec1ac;
+    --teal_hover: #279e8c;
+}
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.h-font {
+    font-family: 'Tilt Neon', sans-serif;
+    color: #09d1c7;
+}
+
+.h-font:hover {
+    color: rgba(9, 209, 199, .5);
+}
+
+.t-color {
+    color: #213a58 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #0c6478 !important;
+}
+
+.btn-outline-dark {
+    color: #213a58 !important;
+    border-color: #213a58 !important;
+}
+
+.btn-outline-dark:hover {
+    color: #fff !important;
+    background-color: rgba(33, 58, 88, .5) !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.custom-bg {
+    background-color: var(--teal);
+    border: 1px solid var(--teal);
+}
+
+.custom-bg:hover {
+    background-color: var(--teal_hover);
+    border-color: var(--teal_hover);
+}
+
+.h-line {
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+
+.custom-alert {
+    position: fixed;
+    top: 80px;
+    right: 25px;
+}
+
+#dashboard-menu {
+    position: fixed;
+    height: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    #dashboard-menu {
+        height: auto;
+        width: 100%;
+    }
+
+    #main-content {
+        margin-top: 60px;
+    }
+}
